@@ -1,0 +1,18 @@
+2026-05-02 17:13:18,505 - INFO - Executing query
+2026-05-02 17:13:18,506 - INFO - Query: 
+        SELECT COUNT(*)
+        FROM source_db.sales_raw s
+        LEFT JOIN staging_db.sales_raw t
+          ON s.order_id = t.order_id
+        WHERE t.order_id IS NULL
+    
+2026-05-02 17:13:18,511 - INFO - Rows returned: 1
+2026-05-02 17:14:31,094 - INFO - Executing query
+2026-05-02 17:14:31,094 - INFO - Query: 
+        SELECT COUNT(*)
+        FROM source_db.sales_raw s
+        LEFT JOIN staging_db.sales_raw t
+          ON s.order_id = t.order_id
+        WHERE t.order_id IS NULL
+    
+2026-05-02 17:14:31,098 - INFO - Rows returned: 1

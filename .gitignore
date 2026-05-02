@@ -1,0 +1,16 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Reports
+reports/
+
+# Virtual env
+.venv/
+env/
+
+# Logs
+*.log
